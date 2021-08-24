@@ -10,6 +10,12 @@ namespace aula_3_programacao_orientada_objetos.atividade_3
 
         private string _endereco;
         public string Endereco => _endereco;
+
+        public Cliente (string nome, string telefone, string endereco) {
+            this._nome = nome;
+            this._telefone = telefone;
+            this._endereco = endereco;
+        }
         
     }
 }

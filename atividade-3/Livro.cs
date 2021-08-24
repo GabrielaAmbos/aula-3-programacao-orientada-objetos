@@ -14,7 +14,12 @@ namespace aula_3_programacao_orientada_objetos.atividade_3
         private string _editora;
         public string Editora => _editora;
 
-        
+        public Livro(string autor, int ano, string nomeDoLivro, string editora) {
+            this._autor = autor;
+            this._ano = ano;
+            this._nomeDoLivro = nomeDoLivro;
+            this._editora = editora;
+        }
         
     }
 }
